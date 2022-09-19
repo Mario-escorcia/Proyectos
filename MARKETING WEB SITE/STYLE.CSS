@@ -1,0 +1,343 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+:root{
+    --white : #fff;
+    --pink : #fd0679;
+    --grey :#788ca0 ;
+    --body-color: #0e0e12;
+}
+
+body{
+    background-color: var(--body-color);
+    overflow-x: hidden;
+}
+.inicio{
+    height: auto;
+    width: 100vw;
+     
+}
+/* img background */
+
+.inicio img{
+    display: inline-block;
+}
+
+
+.background-img{
+    height: auto;
+    width: 100%;
+    position: relative;
+    
+}
+
+ .img-1{
+    position: absolute; 
+    max-width: 50%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.img-2{
+    position: absolute;
+    max-width: 50%;
+    height: 1365px;
+    top: 0;
+    right: 0;
+    z-index: -1;
+} 
+
+/* naveacion */
+.nav-bar{
+    height: 25%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 16px 40px;
+    background-color: var(--body-color);
+    z-index: 100;
+    animation-name: start-animation;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.nav-bar--icon{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nav-bar--icon img{
+    height:40px;
+    width: 40px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
+.nav-bar--icon h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.nav-bar--options{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.nav-bar--options ul{
+    text-align: right;
+   
+
+}
+
+.nav-bar--options ul li{
+    display: inline-block;
+    margin-right: 90px;
+    
+}
+
+.nav-bar--options ul li a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 300;
+    transition: color .2s ease-out;
+    color: var(--grey);
+}
+
+.nav-bar--options ul li a:hover{
+    color: var(--white);
+}
+
+
+/* texto principal */
+
+.text-container{
+    /* background-color: #788ca0; */
+    height: 75vh;
+    width: 90%;
+    margin-top: 4%;
+    margin-left: 4%;
+    padding: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: start-animation;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+}
+
+.text-container--title{
+    margin-bottom: 2%;
+}
+
+.text-container--title h1{
+    color: var(--white);
+    font-size: 60px;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.text-container--title span{
+    color: var(--pink);
+}
+
+.text-container--text{
+    height: 30%;
+    width: auto;
+    padding: 20px;
+}
+
+.text-container--text--p{
+    color: var(--grey);
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.text-container--text--p span{
+    animation-name: animation-year;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animation-year{
+    0%{
+        color: var(--grey);
+    }
+    50%{
+        color: var(--pink);
+    }
+    100%{
+        color: var(--grey);
+    }
+}
+
+.text-container--text--btn{
+    height: auto;
+    width: auto;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container--text--btn button{
+    height: 50px;
+    width: 160px;
+    margin: 20px;
+    outline: none;
+    cursor: pointer;
+    color: var(--white);
+    font-size: 20px;
+    font-weight: 500;
+    background-color: transparent;
+    border : 1px solid var(--grey);
+    border-radius: 7px;
+    transition: .3s ease-in-out;
+}
+
+.text-container--text--btn button:first-child{
+    background-color: var(--white);
+    color: var(--body-color);
+}
+
+.text-container--text--btn button:hover{
+    color: var(--white);
+    background-color: var(--pink);
+    border: none;
+    box-shadow: 0 10px 15px #fd067994;
+}
+
+
+@keyframes start-animation {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+
+
+/* seccion about us */
+
+
+
+.about-cont{
+    height: 60vh;
+    width: auto;
+    margin-top: 1%;
+    padding: 3%;
+}
+
+.about-cont h3{
+    color: var(--white);
+    font-size: 45px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 3%;
+}
+
+.about-cont p{
+    color: var(--grey);
+    font-size: 28px;
+    text-align: justify;
+    font-weight: 400;
+    margin-bottom: 3%;
+}
+
+
+
+/* formulario */
+
+
+.form-cont{
+    height: 35vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.title-form h3{
+    text-align: center;
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 500;
+    margin-top: -10px;
+}
+
+.title-form p{
+    text-align: center;
+    color: var(--grey);
+    font-size: 17px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.input-cont{
+    width: auto;
+    height: auto;
+    padding: 0;
+}
+
+.input-cont input{
+    width: 40vw;
+    height: 5vh;
+    margin-right: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    transition: box-shadow .3s ease-in-out;
+
+}
+
+
+.input-cont button{
+    width: 7vw;
+    height: 5vh;
+    background-color: var(--pink);
+    border-radius: 5px;
+     border: none;
+     cursor: pointer;
+     transition: background-color .3s ease-in-out;
+     font-size: 15px;
+     color: var(--white);
+     font-weight: 300;
+}
+
+.input-cont button:hover{
+    background-color: var(--grey);
+}
+
+.input-cont input:focus{
+    box-shadow: 0 10px 15px #fd067994;
+}
+
+/* terminado 23/07/2022 */

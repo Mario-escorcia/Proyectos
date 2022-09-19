@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>App Weather</title>
+</head>
+<body>
+    
+    <form id="form" action="" method="post" class="clima-cont">
+        <h3>El clima hoy</h3>
+        <div id="info" class="info">
+            <div class="temp">
+                <p id="temp-num"></p>
+                <span id="min-temp"></span>
+                <span id="max-temp"></span>
+            </div>
+            <p id="name-ciudad"></p>
+            <!-- <p id="name-pais"></p> -->
+
+        </div>
+        
+        <div class="inp-cont">
+            
+            <input type="text" placeholder="seleccione una ciudad"  name="ciudad" id="ciudad">
+        <select name="" id="pais" >
+                <option class="opt-pais" disabled selected value="">seleccione un pais</option>
+                <option value="CO">colombia</option>
+                <option value="BR">Brasil</option>
+                <option value="MX">Mexico</option>
+                <option value="US">Estados unidos</option>
+                <option value="DEU">Alemania</option>
+                <option value="ITA">Italia</option>
+                <option value="FRA">francia</option>
+                <option value="JPN">japon</option>
+        </select>
+                <div id="submit-cont">
+                    <input id="btn-sub" type="submit" value="Ver clima">
+                    <div id="error-msg"></div>
+                </div>
+        </div>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
+
+<!-- 19/09/2022 -->
