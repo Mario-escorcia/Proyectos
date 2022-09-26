@@ -68,6 +68,7 @@ get.addEventListener("click", (e)=>{
     function showData(dataApi){
         // toma las propiedades que vienen en el json del api y luego los muestra con el innerHTML 
         // degrees recibe como parametro las temperaturas que por defecto vienen en kelvins
+        
         const{name,main : {temp,temp_max,temp_min}} =dataApi;
 
             const deg = degrees(temp);
