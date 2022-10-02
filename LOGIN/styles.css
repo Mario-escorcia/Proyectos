@@ -69,7 +69,7 @@ form{
 .input-cont input:focus{
     border: .3px solid #5451ffbe;
 }
-#error-msg{
+.error-msg{
     height: 30px;
     width: 100%;
     margin-bottom: 15px;
