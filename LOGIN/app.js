@@ -44,7 +44,7 @@ function passAuth(pass , pass2) {
         let msgPass = document.createElement("div");
         msgPass.classList.add("error-msg");
         inputsCont.appendChild(msgPass)
-        msgPass.innerText = "Las contraseñas no coinciden";
+        msgPass.innerText = "Passwords do not match";
         
         pass.style.border = ".3px solid #ff2631";
         pass2.style.border = ".3px solid #ff2631";
@@ -52,12 +52,13 @@ function passAuth(pass , pass2) {
 
         setTimeout(()=>{
             msgPass.remove()
-        }, 3000)
+        }, 4000)
 
 
 
     }
 }
+
 
 createAcount.addEventListener("click",(e)=>{
     e.preventDefault();
@@ -68,6 +69,7 @@ createAcount.addEventListener("click",(e)=>{
 
     passAuth(password,passwordConf);
 
-   
-
 })
+
+
+// 3/10/20223/10/2022
