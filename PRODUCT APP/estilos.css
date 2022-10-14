@@ -9,7 +9,6 @@
     width: 100vw;
     display: flex;
     flex-direction: column;
-    /* background-image: linear-gradient(to left top, #da22ff, #c928fb, #b92df7, #a830f3, #9733ee); */
 }
 
 .msg--add-rm{
@@ -41,7 +40,6 @@
 }
 
 .list--cont{
-    background-color: blue;
     width: 45%;
 
 }
@@ -111,4 +109,44 @@ input:focus{
 .inputs--cont button:hover{
     background-color: rgba(4, 141, 141, 0.719);
 
+}
+
+.product--inf{
+    height: 60px;
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+    border-bottom: .3px solid rgba(0, 0, 0, 0.39);
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product--inf p{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.product--inf b{
+    color: rgba(6, 182, 182, 0.692);
+}
+
+#delete--product{
+    background-color: #ff3c00;
+    height: 30px;
+    width: 80px;
+    margin-right: 10px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+    color: rgb(248, 248, 248);
+}
+
+#delete--product:hover{
+    background-color: #ff3c00a9;
 }
