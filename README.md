@@ -7,26 +7,22 @@ mis proyectos personales mas importantes estarán aqui ❤️
 
 hasta ahora he realizado 8 proyectos distintos subidos a gitHub ( he hecho muchos más).
 
-<!-- app del clima  -->
- la App del clima que es lo mas complejo hasta este momento.
+-- app del clima  --
 
-ahí practico principalmente promesas funciones y más que nada como conectar a un API y usar los datos
-para mostrar en pantalla.
+ la App del clima que es lo mas complejo hasta este momento ,ahí practico principalmente promesas funciones y más que nada como conectar a un API y usar los datos para mostrar en pantalla.
 
-ese proyecto al principio me costó un poco porque no habia hecho algo asi antes (usar una API).
-
-<!--pagina error 404  -->
+--pagina error 404  --
 
 genero una peticion erronea a la misma API de la app del clima y creo una pagina de error con html / css / js.
 
-<!--  formulario  -->
+--  formulario  --
 
 hecho con htmll / css / js
 
 practiqué realizar validaciones con javascript y el responsive desing con css.
 
-<!-- app de productos -->
+-- app de productos --
 
 el principal objeto era practica la programación orientada a objetos.
 
-<!-- pronto estaré practicando mas de POO y temas como asincronismo , promesas APIS etc-->
+pronto estaré practicando mas de POO y temas como asincronismo , promesas APIS etc
