@@ -5,7 +5,7 @@
 -->
 mis proyectos personales mas importantes estarán aqui ❤️
 
-hasta ahora he realizado 6 proyectos distintos , una landing page sencilla , un pequeño portafolio con información relevante , un reloj que me gustó como quedó.
+hasta ahora he realizado 8 proyectos distintos subidos a gitHub ( he hecho muchos más).
 
 <!-- app del clima  -->
  la App del clima que es lo mas complejo hasta este momento.
@@ -24,3 +24,9 @@ genero una peticion erronea a la misma API de la app del clima y creo una pagina
 hecho con htmll / css / js
 
 practiqué realizar validaciones con javascript y el responsive desing con css.
+
+<!-- app de productos -->
+
+el principal objeto era practica la programación orientada a objetos.
+
+<!-- pronto estaré practicando mas de POO y temas como asincronismo , promesas APIS etc-->
