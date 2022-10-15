@@ -9,36 +9,40 @@ const infoProducto = document.querySelector(".product--inf-cont");
 const containerList = document.querySelector(".list--cont");
 
 
+
 // creo la clase que llevará los productos
 
-// `<div class="product--inf">
-//             <p> <b>Producto</b> : ${this.nombre} <br>
-//                 <b>Macrca</b> : ${this.marca} <br>
-//                 <b>Precio</b> : ${this.precio}
-//              </p>
-//              <button id="delete--product">Eliminar</button>
-//            </div>`
 class Producto{
     constructor(nombre,marca,precio){
         this.nombre = nombre,
         this.marca = marca,
         this.precio = precio
+        this.msg = function (mensaje,background) {
+
+            msgCont.innerHTML = `<p class="p--msg">${mensaje}</p>`;
+            msgCont.style.backgroundColor = background;
+            setTimeout(()=>{
+                msgCont.innerHTML = `<p class="p--msg"></p>`;
+                msgCont.style.backgroundColor= "transparent";
+            },2500)
+
+
+        }
         this.mostrar = function () {
              const div = document.createElement("div");
              div.classList.add("product--inf")
              infoProducto.appendChild(div);
-             const htmlCode = `<p> <b>Producto</b> : ${this.nombre} <br>
+             const htmlCode = `<p> <b>Producto</b> : ${this.nombre} |
                               <b>Macrca</b> : ${this.marca} <br>
                               <b>Precio</b> : ${this.precio}
                               </p>
                                 <button id ="delete--product" name="delete">Eliminar</button>` ;
-             div.innerHTML = htmlCode ;
+             div.innerHTML = htmlCode ;             
             };
         
             this.borrar = function (elemento) {
                 if (elemento.name === "delete") {
                     elemento.parentElement.remove()
-                    // console.log(elemento.parentElement.parentElement)
                 }
             }
         }
@@ -50,13 +54,16 @@ form.addEventListener("submit",(e)=>{
 
     let nuevoProducto = new Producto(inputProducto.value,inputmarca.value,inputPrecio.value);
     nuevoProducto.mostrar();
+    nuevoProducto.msg("Producto agregado con exito","#3ccf79");
+
         containerList.addEventListener("click",(e)=>{
             const borrar = new Producto();
             borrar.borrar(e.target)
+            borrar.msg("producto eliminado con exito","#ff3c00")
             
 
         })
-    })
+})
 
 
 
