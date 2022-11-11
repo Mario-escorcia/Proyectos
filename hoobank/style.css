@@ -77,6 +77,7 @@ nav ul li a:hover{
 .hero--text{
     width: 60%;
     height: 100%;
+    position: relative;
 }
 
 .hero--desc{
@@ -91,12 +92,11 @@ nav ul li a:hover{
 }
 
 .hero--text h1{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: var(--bolt);
     margin-top: 3%;
     line-height: 1.5;
     color: var(--txt-white);
-    letter-spacing: .2rem;
 }
 
 .hero--text h1 > span{
@@ -116,6 +116,37 @@ nav ul li a:hover{
     opacity: .8;
     margin-top: 4%;
 }
+
+.hero--text button{
+    background-color: #42b0b4;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 25%;
+    left: 43%;
+    background-color: transparent;
+    border: 2px solid var(--blue);
+    color: var(--blue);
+    font-size: 15px;
+    font-weight: var(--light);
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.hero--text button img{
+    height: 15px;
+    width: 15px;
+    object-fit: cover;
+    transform: translateY(3px);
+}
+
+.hero--text button:hover{
+    border: 2px solid #5be1e677;
+    color: var(--txt-white);
+
+}
+
 .img--des{
     height: 20px;
     width: 20px;
@@ -126,6 +157,7 @@ nav ul li a:hover{
 
 .hero--img{
     width: 50%;
+    position: relative;
 }
 
 
@@ -133,4 +165,15 @@ nav ul li a:hover{
     height: 100%;
     width: 100%;
     object-fit: fill;
+}
+
+.hero--blur{
+    z-index: -100;
+    position: absolute;
+    top: 2%;
+    height: 80%;
+    left: 15%;
+    width: 60%;
+    background-color: #83fbff;
+    filter: blur(150px);
 }
