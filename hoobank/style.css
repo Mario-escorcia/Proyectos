@@ -1,0 +1,136 @@
+:root{
+    /* --bg : linear-gradient(79.39deg, #3A3E47 1.29%, #96A1A8 95.52%); */
+    --background : rgba(0,4, 15, 9); 
+    --txt-white : rgb(250, 242, 242);
+    --blue : #5be1e6;
+    --light : 100;
+    --mid : 300;
+    --bolt : 500;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--background);
+    position: relative;
+}
+
+
+/* --------   NAVEGACIÓN    ---------- */
+
+nav{
+    height: auto;
+    width: 85vw;
+    margin: auto;
+    padding: 5px;
+    transform: translateY(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+nav > img{
+    width: 220px;
+    height: 60px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a{
+    color: var(--txt-white);
+    text-decoration: none;
+    font-weight:var(--light);
+    font-size: 17px;
+    margin-right:70px;
+    transition: color .3s ease-in-out;
+}
+
+nav ul li a:hover{
+    color: var(--blue);
+}
+
+/* --------   HERO    ---------- */
+
+.hero{
+    height: 83%;
+    width: 93vw;
+    margin: auto;
+    margin-top: 3vh;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero--text{
+    width: 60%;
+    height: 100%;
+}
+
+.hero--desc{
+    background-color: rgb(26, 24, 24);
+    height: 30px;
+    width: auto;
+    padding: 5px;
+    border-radius: 6px;
+    color: var(--txt-white);
+    font-size: 13px;
+    font-weight: var(--light);
+}
+
+.hero--text h1{
+    font-size: 55px;
+    font-weight: var(--bolt);
+    margin-top: 3%;
+    line-height: 1.5;
+    color: var(--txt-white);
+    letter-spacing: .2rem;
+}
+
+.hero--text h1 > span{
+    /* solo visible en chrome o safari etc */
+    background-image: linear-gradient(24.34deg, #42b0b4,  #ffffff);
+    color: transparent;
+    -webkit-background-clip: text;
+
+}
+
+.hero--text p {
+    color: var(--txt-white);
+    font-size: 15px;
+    text-align: justify;
+    line-height: 1.5;
+    font-weight: var(--light);
+    opacity: .8;
+    margin-top: 4%;
+}
+.img--des{
+    height: 20px;
+    width: 20px;
+    margin-right: 7px;
+    transform: translateY(5px);
+    margin-top: 10%;
+}
+
+.hero--img{
+    width: 50%;
+}
+
+
+.hero--img img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
