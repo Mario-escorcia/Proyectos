@@ -20,6 +20,7 @@ body{
     width: 100vw;
     background-color: var(--background);
     position: relative;
+    overflow-x: hidden;
 }
 
 
@@ -65,11 +66,12 @@ nav ul li a:hover{
 /* --------   HERO    ---------- */
 
 .hero{
+    
     height: 83%;
     width: 93vw;
     margin: auto;
     margin-top: 3vh;
-    margin-right: 5px;
+    margin-right: 0px;
     display: flex;
     justify-content: space-between;
 }
@@ -158,8 +160,8 @@ nav ul li a:hover{
 .hero--img{
     width: 50%;
     position: relative;
-}
 
+}
 
 .hero--img img{
     height: 100%;
@@ -176,4 +178,56 @@ nav ul li a:hover{
     width: 60%;
     background-color: #83fbff;
     filter: blur(150px);
+}
+
+
+/* ------------   SECTION 2    --------------- */
+
+.section2--cont{
+    /* background-color: #42b0b4; */
+    height: 100vh;
+    width: 85vw;
+    margin: auto;
+}
+
+.stadistics{
+    height: 15%;
+    transform: translateY(45%);
+    margin-bottom: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.stadistic--data{
+    height: auto;
+    position: relative;
+    padding: 10px;
+}
+.stadistic--data::after{
+    content: "";
+    background-color: #fff;
+    height: 20px;
+    width: 2px;
+    position: absolute;
+    top: 33%;
+    left: 100%;
+}
+
+.stadistic--data p{
+    font-size: 25px;
+    color: var(--txt-white);
+    font-weight: var(--bolt);
+}
+
+.stadistic--data span{
+    background-image: linear-gradient(24.34deg, #42b0b4,  #ffffff);
+    color: transparent;
+    -webkit-background-clip: text;   
+}
+
+.data-1 , .data-2{
+    margin-right: 10%;
+
 }
