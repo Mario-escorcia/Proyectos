@@ -14,7 +14,9 @@
     font-family: 'Roboto', sans-serif;
     
 }
-
+::selection{
+    background-color: var(--blue);
+}
 body{
     height: 100vh;
     width: 100vw;
@@ -184,7 +186,6 @@ nav ul li a:hover{
 /* ------------   SECTION 2    --------------- */
 
 .section2--cont{
-    /* background-color: #42b0b4; */
     height: 100vh;
     width: 85vw;
     margin: auto;
@@ -193,7 +194,7 @@ nav ul li a:hover{
 .stadistics{
     height: 15%;
     transform: translateY(45%);
-    margin-bottom: 10%;
+    margin-bottom: 7%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -229,5 +230,101 @@ nav ul li a:hover{
 
 .data-1 , .data-2{
     margin-right: 10%;
+}
 
+.info--cont-sect2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text--sect2{
+    height: 70%;
+    width: 40%;
+}
+
+.text--sect2 h2{
+    font-size: 40px;
+    line-height: 1.5;
+    font-weight: var(--bolt);
+    color: var(--txt-white);
+}
+
+.text--sect2 p{
+    color: var(--txt-white);
+    font-weight: var(--mid);
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 5%;
+    opacity: .7;
+}
+
+.text--sect2 button{
+    margin-top: 7%;
+    height: 40px;
+    width: 110px;
+    border: none;
+    border-radius: 6px;
+
+    background-color: #83fbff;
+}
+
+.cards--sect2{
+    width: 45%;
+    height: 70%;
+}
+
+.card{
+    height: 30%;
+    width: 80%;
+    margin-bottom: 4%;
+    border-radius: 15px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10%;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.card:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+.img--card{
+    height: 40px;
+    width: 45px;
+    margin-right: 10px;
+    background-color: #5be1e64f;
+    padding: 5px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img--card img{
+    height: 30px;
+    width: 30px;
+    
+}
+
+.info--cards{
+    width: auto;
+}
+
+.info--cards h4{
+    font-size: 20px;
+    font-weight: var(--bolt);
+    color: var(--txt-white);
+}
+
+.info--cards p{
+    color: var(--txt-white);
+    font-size: 14px;
+    font-weight: var(--mid);
+    opacity: .7;
+    margin-top: 3%;
+    
 }
