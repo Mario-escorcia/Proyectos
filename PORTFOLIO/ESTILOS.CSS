@@ -9,7 +9,7 @@
 
     /* colors */
 
-    --bg-p :#f1f1f1;
+    --bg-p :#e6e6e6;
     --black : #14151a;
     --white : #f0f0f0;
     --teal: #2694af;
@@ -293,6 +293,7 @@ nav{
     width: 40%;
     object-fit: cover;
 }
+/* knowledge */
 
 .knowledge{
     height: 100vh;
@@ -354,7 +355,6 @@ nav{
 .card-title{
     display: flex;
     align-items: center;
-    background-color: #f0f0f0;
     font-size: 30px;
     color: var(--teal);
     transform: translateY(10px);
@@ -369,7 +369,7 @@ nav{
     margin-right: 10px;
 }
 
-.p1-html, .p1-css, .p1-js, .p1-git{
+.p1-html, .p1-css, .p1-js, .p1-git, .p1-react, .p1-sql{
     color: var(--black);
     opacity: .9;
     text-align: justify;
@@ -378,7 +378,7 @@ nav{
     line-height: 1.3;
 }
 
-.p2-html, .p2-css, .p2-js, .p2-git{
+.p2-html, .p2-css, .p2-js, .p2-git, .p2-react, .p2-sql{
     color: var(--black);
     font-size: 14px;
     opacity: .7;
