@@ -166,7 +166,7 @@ nav ul li a:hover{
 }
 
 .hero--img img{
-    height: 100%;
+    height: 90%;
     width: 100%;
     object-fit: fill;
 }
@@ -456,3 +456,131 @@ nav ul li a:hover{
     height: 400px;
     width: 450px;
 }
+
+/* -------      SECTION 5      ----------   */
+
+.section5--cont{
+    height:85vh;
+    width: 85vw;
+    margin: auto;
+}
+
+.text--sect6-cont{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    /* margin-top: 5%; */
+    justify-content: space-around;
+    align-items: center;
+}
+
+.text--sect6-cont  h2{
+    color: var(--txt-white);
+    font-size: 45px;
+    font-weight: var(--bolt);
+    line-height: 1.5;
+}
+
+.text--sect6-cont p{
+    font-size: 15px;
+    color: var(--txt-white);
+    font-weight: var(--light);
+    line-height: 1.5;
+    opacity: .7;
+}
+
+.cards--sect6-cont{
+    height: 45%;
+    width: 100%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,1fr);
+    gap: 10px;
+    justify-items: center;
+    position: relative;
+}
+
+.cards--sect6-cont::before{
+    content: "";
+    height: 300px;
+    width: 300px;
+    background-color: #83fbff;
+    position: absolute;
+    top: 0%;
+    right: -30%;
+    z-index: -10;
+    filter: blur(150px);
+}
+
+
+.card--test{   
+    height: 100%;
+    width: 70%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 30px;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.card--test:hover{
+    background-color: rgba(255, 255, 255, 0.356);
+}
+
+.quotes{
+    margin-top: 5%;
+    height: 25px;
+    width: 35px;
+}
+
+.card--test p{
+    color: var(--txt-white);
+    opacity: .7;
+    font-size: 15px;
+    font-weight: var(--mid);
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.person---card{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+.person---card img{
+    height: 50px;
+    margin-right: 10px;
+}
+
+.info--person-card h4{
+    font-weight: 300;
+    color: var(--txt-white);
+    font-size: 20px;
+}
+
+.info--person-card span{
+    color: var(--txt-white);
+    font-size: 13px;
+    font-weight: var(--light);
+    opacity: .7;
+}
+
+.company--sect6-cont{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 3%;
+}
+
+.company--sect6-cont img{
+    height: 30px;
+}
+
