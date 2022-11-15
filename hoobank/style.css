@@ -40,7 +40,7 @@ nav{
 }
 
 
-nav > img{
+.logo{
     width: 220px;
     height: 60px;
     object-fit: cover;
@@ -64,6 +64,14 @@ nav ul li a{
 nav ul li a:hover{
     color: var(--blue);
 }
+
+.menu--icon{
+    height: 15px;
+    cursor: pointer;
+    display: none;
+}
+
+
 
 /* --------   HERO    ---------- */
 
@@ -799,3 +807,99 @@ footer::before{
     z-index: -100;
     filter: blur(150px);
 }
+
+/* ------------- RESPONSIVE ------------ */
+
+
+@media screen and (max-width : 425px) {
+
+    /* section 1 */
+    body{
+        overflow-x: hidden;
+    }
+    /* navegacion */
+    .menu--icon{
+        display: block;
+    }
+
+    .logo{
+        height: 85px;
+        width: 85px;
+        object-fit: contain;
+    }
+    nav ul {
+        display: none;
+    }
+
+    /* hero */
+
+    .hero{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .hero--text{
+        width: 90%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .hero--desc{
+        display: none;
+    }
+    
+    .hero--text h1{
+        font-size: 25px;
+        margin-top: 8%;
+    }
+    
+    
+    .hero--text p {
+        font-size: 12px;
+        opacity: .8;
+    }
+    
+    .hero--text button{
+        height: 60px;
+        width: 60px;
+        position: absolute;
+        top: 20%;
+        left: 60%;
+        border: 1px solid var(--blue);
+        font-size: 10px;
+
+    }
+    
+    .hero--text button img{
+        height: 12px;
+        width: 12px;
+        transform: translateY(3px);
+    }
+    
+    
+    .hero--img{
+        width: 100%;
+        height: 40%;
+        position: relative;
+        margin-top: 5%;
+    
+    }
+    
+    
+    .hero--blur{
+        z-index: -100;
+        position: absolute;
+        height: 80%;
+        left: 65%;
+    }
+    
+    /* section 2 */
+
+    
+
+
+
+}
+
