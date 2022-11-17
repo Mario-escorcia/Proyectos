@@ -19,7 +19,7 @@ function Principal() {
 
             <div className="inputs__cont">
 
-                <input type="text" placeholder='Seleccione una ciudad' />
+                <input className='nombre_ciudad' autoComplete='off' autoCapitalize='off' type="text" placeholder='Escriba una ciudad aquí' />
 
                 <select name="" id="pais" >
                     <option class="opt-pais" disabled selected value="">seleccione un pais</option>
