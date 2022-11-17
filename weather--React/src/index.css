@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+#root{
+    height: 100vh;
+    background-image: linear-gradient(to right top, #536976, #455a6b, #394b61, #303d55, #292e49);
+}

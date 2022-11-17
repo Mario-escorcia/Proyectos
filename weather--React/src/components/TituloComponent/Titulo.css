@@ -1,0 +1,19 @@
+.titulo__cont{
+    /* background-color: aqua; */
+    text-align: center;
+    height: 15%;
+    padding-top: 2%;
+}
+
+h1{
+    color: #fff;
+    font-size: 45px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+p{
+    color: rgb(206, 206, 206);
+    font-size: 20px;
+    font-weight: 300;
+}

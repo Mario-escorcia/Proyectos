@@ -59,9 +59,6 @@ Animation(companyImgContSec5,300,2000,"bottom","70px");
 // section 6 animation
 
 const callActionSec6 = document.querySelector(".call-action--cont")
-const linksSec6 = document.querySelector(".links")
-const  copyrightContSec6 = document.querySelector(".copyright--social-cont")
+
 
 Animation(callActionSec6,300,2000,"top","70px");
-Animation(linksSec6,300,2000,"left","150px");
-Animation(copyrightContSec6,300,2000,"bottom","20px");

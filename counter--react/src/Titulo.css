@@ -1,0 +1,25 @@
+*{
+    font-family: sans-serif;
+}
+
+div{
+    width: 100%;
+    height: auto;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+p{
+    text-align: center;
+    font-size: 15px;
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 200;
+}

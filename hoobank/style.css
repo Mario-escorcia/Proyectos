@@ -1008,7 +1008,7 @@ footer::before{
         
     }
     
-/* section 3 */
+/* section 3*/
 
 .section3--cont{
     height:100vh;
@@ -1061,5 +1061,275 @@ footer::before{
     margin-right: 5px;
 }
 
+/* section 4 */
+
+
+.section4--cont{
+    height: 100vh;
+    width: 85vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info--sect4-cont  h2{
+    font-size: 25px;
+    line-height: 1.2;
+}
+
+.info--sect4-cont p{
+    font-size: 10px;
+    margin-top: 5%;
+    line-height: 1.3;
+}
+
+.info--sect4-cont button{
+    margin-top: 7%;
+    height: 25px;
+    width: 70px;
+    font-size: 10px;
+}
+
+.info--sect4-cont button:hover{
+    background-color: #42b0b4;
+}
+
+
+.img--sect4-cont img{
+    height: 200px;
+    width: 250px;
+    margin-top: 10%;
+}
+
+/* section 5 */
+
+
+.section5--cont{
+    height:100vh;
+    width: 85vw;
+}
+
+.text--sect5-cont{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.text--sect5-cont  h2{
+    font-size: 25px;
+    line-height: 1.3;
+}
+
+.text--sect5-cont p{
+    font-size: 12px;
+    line-height: 1.3;
+    opacity: .7;
+    margin-top: 5px;
+}
+
+.cards--sect5-cont{
+    height: 35%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+    justify-items: center;
+}
+
+.cards--sect5-cont::before{
+    content: "";
+    height: 220px;
+    width: 220px;
+    background-color: #83fbff;
+    right: -50%;
+}
+
+
+.card--test{   
+    margin-top: 15%;
+    margin-bottom: 2%;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-left: 10px;
+   
+}
+
+.quotes{
+    margin-top: 5%;
+    height: 10px;
+    width: 20px;
+}
+
+.card--test p{
+    font-size: 8px;
+    line-height: 1.2;
+    text-align: justify;
+    margin-top: 5%;
+}
+
+.person---card{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.person---card img{
+    height: 20px;
+    margin-right: 10px;
+}
+
+.info--person-card h4{
+    font-weight: 300;
+    font-size: 10px;
+}
+
+.info--person-card span{
+    font-size: 7px;
+}
+
+.company--sect5-cont{
+    height: 10%;
+    margin-top: 30%;
+}
+
+.company--sect5-cont img{
+    height: 13px;
+}
+
+
+/* section 6 */
+
+
+.section6--cont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.call-action--cont{
+    width: 90%;
+    height: 18%;
+    margin-top: 5%;
+}
+
+.text--cont-sect6 h2{
+    font-size: 15px;
+    margin-bottom: 2%;
+}
+
+.text--cont-sect6 p{
+    font-size: 7px;
+}
+
+.btn--cont6 button{
+    height: 20px;
+    width: 70px;
+    font-size: 9px;
+}
+
+
+footer{
+    align-items: center;
+    height: 25%;
+    width: 95%;
+    position: relative;
+}
+
+.links{
+    height: 50%;
+    width: 100%;
+    margin-bottom: 0%;
+    margin-top: 8%;
+    border-bottom: none;
+}
+
+.logo--footer img{
+    width: 60px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.logo--footer p{
+    font-size: 10px;
+}
+
+.usefull--links {
+    height: auto;
+    width: auto;
+}
+
+.usefull--links-cont h3{
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.usefull--links-cont li{
+    list-style: none;
+    margin-bottom: 1px;
+}
+
+.usefull--links-cont a{
+    font-size: 6px;
+}
+.usefull--links {
+    height: auto;
+    width: auto;
+}
+
+.community--links-cont h3{
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.community--links-cont li{
+    list-style: none;
+    margin-bottom: 1px;
+}
+
+.community--links-cont a{
+    font-size: 6px;
+}
+.Partners--links {
+    height: auto;
+    width: auto;
+    margin-top: -13%;
+}
+
+.Partners--links h3{
+    font-size: 10px;
+    margin-bottom: 2px;
+}
+
+.Partners--links li{
+    list-style: none;
+    margin-bottom: 1px;
+}
+
+.Partners--links a{
+    font-size: 6px;
+}
+.copyright--social-cont {
+    width: 100%;
+    height: 15%;
+    margin-top: 20%;
+}
+
+.copy--cont p{
+    font-size: 10px;
+}
+
+.social--icons-cont img{
+    height: 10px;
+    width: 20px;
+}
 }
 
