@@ -62,3 +62,26 @@ const callActionSec6 = document.querySelector(".call-action--cont")
 
 
 Animation(callActionSec6,300,2000,"top","70px");
+
+
+
+
+// menu responsive
+let menuResponsive = false
+const menu = document.querySelector(".navbar--responsive");
+const iconoResponsive = document.querySelector(".menu--icon");
+ iconoResponsive.addEventListener('click',()=>{
+    if (menuResponsive == false) {
+        menu.style.display ="block";
+        menuResponsive = true
+        
+    }else{
+        menu.style.display ="none";
+        menuResponsive = false 
+    }
+    
+    
+})
+
+
+// 17/11/2022
