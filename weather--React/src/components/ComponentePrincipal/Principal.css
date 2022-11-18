@@ -104,3 +104,10 @@
     cursor: pointer;
     border: .1rem solid rgba(255, 255, 255, 0.5);
 }
+
+option{
+    background-color: black;
+}
+select:focus{
+    box-shadow: 1px 1px 5px #00f7ff96;
+}
