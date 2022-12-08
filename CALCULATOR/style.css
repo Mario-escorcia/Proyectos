@@ -54,14 +54,25 @@ body{
     width: 45px;
     border-radius: 50%;
     cursor: pointer;
-    background-color: rgba(255, 255, 255, .8);
     border: none;
+    background-color: rgba(255, 255, 255, 0.815);
+    
 }
 
 #equal--btn{
-    background-color: aquamarine;
+    background-color: #54B435;
     width: 150px ;
     border-radius: 15px;
 }
+
+.punt , .sum , .res , .multi , .div{
+    background-color: #09c59c !important;
+}
+
+.reset {
+    background-color: red !important;
+}
+
+
 
 
