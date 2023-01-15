@@ -20,7 +20,7 @@
   <body>
     <!-- navbar -->
 
-    <nav>
+    <nav id="nav">
       <div class="navbar--icon">
         <i class="fa-solid fa-code"></i>
         <h4>Mario Escorcia</h4>
@@ -28,16 +28,16 @@
       <div class="navbar--links">
         <ul>
           <li>
-            <a href="">About Me</a>
+            <a href="#about">About Me</a>
           </li>
           <li>
-            <a href="">Projects</a>
+            <a href="#projects">Projects</a>
           </li>
           <li>
-            <a href="">knowledge</a>
+            <a href="#knowledge">knowledge</a>
           </li>
           <li>
-            <a href="">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           <li><a href="https://github.com/Mario-escorcia" target="_blank">GitHub  <i class="fa-brands fa-github"></i></a></li>
         </ul>
@@ -49,7 +49,7 @@
 
     <!-- hero section -->
 
-    <section class="hero">
+    <section id="hero" class="hero">
       <span class="greeting--span">Hello, my name is</span>
       <h1 class="title--hero">
         Mario Escorcia. <br />
@@ -59,7 +59,7 @@
         I'm a <span>self-taught</span> web developer focused on developing great
         user interfaces.
       </p>
-      <button class="btn--hero">
+      <button id="btn-hero" class="btn--hero">
         See More <i class="fa-solid fa-chevron-down"></i>
       </button>
     </section>
@@ -70,7 +70,7 @@
     
     <!-- About section -->
 
-    <section class="about--cont">
+    <section id="about" class="about--cont">
       <h3 class="about--title">
         <i class="fa-regular fa-circle"></i>
         About Me
@@ -84,7 +84,7 @@
         improve much more with it spend time. <br> <br> If you like you can see some
         projects below 💖
       </p>
-      <button>Projects</button>
+      <button id="btn-projects">Projects</button>
     </section>
 
     <!-- About section -->
@@ -92,13 +92,13 @@
 
     <!-- projects -->
 
-    <section class="projects-cont">
+    <section id="projects" class="projects-cont">
       <div class="title-project-cont">
         <h4><i class="fa-regular fa-circle"></i>
           some projects I have created</h4>
       </div>
 
-      <div class="info--project project-1">
+      <div id="project1" class="info--project project-1">
         
         <div class="info--project-img">
           <img src="./img/chrome.png" alt="" srcset="">
@@ -114,7 +114,7 @@
       </div>
 
 
-      <div class="info--project project-2">
+      <div id="project2" class="info--project project-2">
         
         <div class="info--project-img">
           <img src="./img/hoobank.png" alt="" srcset="">
@@ -129,9 +129,9 @@
         </div>
       </div>
 
-      <div class="info--project project-3">
+      <div id="project3" class="info--project project-3">
         
-        <div class="info--project-img">
+        <div  class="info--project-img">
           <img src="./img/marketing.png" alt="" srcset="">
         </div>
 
@@ -145,7 +145,7 @@
         </div>
       </div>
 
-      <div class="info--project project-4">
+      <div id="project4" class="info--project project-4">
         
         <div class="info--project-img">
           <img src="./img/calculator.png" alt="" srcset="">
@@ -161,7 +161,7 @@
       </div>
 
 
-      <div class="info--project project-5">
+      <div id="project5" class="info--project project-5">
         
         <div class="info--project-img">
           <img src="./img/weather.png" alt="" srcset="">
@@ -183,7 +183,7 @@
 
     <!-- knowledge section -->
 
-      <section class="know--cont">
+      <section id="knowledge" class="know--cont">
       <h3 class="know--title">
         <i class="fa-regular fa-circle"></i>
         Knowledge
@@ -215,7 +215,7 @@
       </div>
 
     </div>
-      <button>Contact</button>
+      <button id="btn-knowledge">Contact</button>
     </section>
 
     <!-- knowledge section -->
@@ -223,7 +223,7 @@
 
     <!-- contact section -->
 
-    <section class="contact--cont">
+    <section id="contact" class="contact--cont">
       <h3>
         Contact with me 
       </h3>
@@ -231,16 +231,18 @@
         If you like what you see and want to <span>contact me</span>, you can do so by clicking the button below, I will answer you with great pleasure!
       </p>
 
-      <button class="btn-contact">Say Hello!</button>
+      <button id="btn-contact" class="btn-contact">Say Hello!</button>
     </section>
 
     <!-- contact section -->
 
 
     <!-- credits section -->
-    <div class="credit--cont">
+    <div id="credit-cont" class="credit--cont">
       <span class="credit--span">The design of this portfolio is based on the design of the portfolio of <a target="_blank" href="https://brittanychiang.com/">Brittany chiang</a> , No appropriation purposes!</span>
     </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <script src="MAIN.JS"></script>
   </body>
 </html>

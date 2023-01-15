@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 ::selection{
@@ -120,6 +121,10 @@ nav i:hover{
 nav ul{
     display: flex;
     gap: 40px;
+}
+
+nav ul i{
+    color: var(--white);
 }
 
 nav ul li{
@@ -484,6 +489,8 @@ nav ul li a:hover{
 
 .icons-know:hover > i {
     color: var(--green);
+    filter: drop-shadow(1px 1px 30px var(--green));
+
 }
 
 /* contact section */
