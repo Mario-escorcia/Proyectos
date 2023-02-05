@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(1, 1, 41);
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: .5rem;
+    color: #ffffff8e;
+}
+
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 7px;
+    outline: none;
+    background-color: transparent !important;
+    border: .2px solid #ffffff8e;
+    text-align: center;
+    padding: 2px;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    color: #ffffff8e;
+}
+
+input:focus{
+    box-shadow: 0px 2px 10px #0088d68e;
+}
+
+
+
+#spnCount{
+    color: #ffffff8e;
+    font-size: 5rem;
+    letter-spacing: .3rem;
+}
+
+
+button{
+    width: 140px;
+    height: 30px;
+    border-radius: 7px;
+    border: .3px solid #ffffff8e;
+    background-color: transparent !important;
+    outline: none;
+    color: #ffffff8e;
+    font-size: 12px;
+    letter-spacing: .2rem;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
