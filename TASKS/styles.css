@@ -31,6 +31,7 @@ h1{
     max-width: 40%;
     height: auto;
     margin: auto;
+    margin-top: 2%;
 }
 
 .task--add-container{
@@ -74,7 +75,6 @@ h1{
     color: var(--black);
     border-bottom: .7px solid #181d3160;
     transition: border .4s ease-in-out;
-
 }
 #description-input:focus{
     border-bottom: .7px solid var(--blue);
@@ -111,4 +111,72 @@ h1{
 }
 #btn--add:hover{
     background-color: #03c98788;
+}
+
+
+/* task added  section*/
+
+.added--task-section{
+    height: auto;
+    max-width: 70%;
+    margin: 3% auto;
+    padding: 2%;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.added--task-cont{
+    padding-left: 15px;
+    border-radius: 7px;
+    border-left: 5px solid var(--blue);
+    position: relative;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: 0px 5px 10px #181d3160;
+    transition: all .4s ease-in-out;
+}
+
+.added--task-cont:hover{
+    box-shadow: 0px 5px 10px #352fd9d0;
+
+}
+.name--added-task{
+    color: var(--black);
+    font-weight: 800;
+    font-size: 23px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.desc--added-task{
+    color: var(--black);
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: .7px;
+}
+
+.btn--delete-added{
+    background-color: var(--red);
+    max-width: 13%;
+    padding: 3px;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 1%;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.btn--delete-added:hover{
+    background-color: #ff003388;
 }
