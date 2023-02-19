@@ -22,7 +22,7 @@ const createTaskCard = (name, description) => {
   let sectionTaskContainer = document.getElementById("added--task");
   let containerCard = document.createElement("div");
   let titleCard = document.createElement("h4");
-  let paragraphCard = document.createElement("p");
+  let paragraphCard = document.createElement("textarea");
   let btnCard = document.createElement("button");
 
   containerCard.classList.add("added--task-cont");
@@ -45,7 +45,6 @@ const createTaskCard = (name, description) => {
 
   target.forEach(element => {
     element.addEventListener("click" , ()=>{
-      // console.log(element.id)
       deleteTask(element);
     })
   });

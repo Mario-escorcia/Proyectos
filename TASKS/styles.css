@@ -150,27 +150,39 @@ h1{
 .name--added-task{
     color: var(--black);
     font-weight: 800;
-    font-size: 23px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-transform: capitalize;
+    border-bottom:1px solid #47474788;
+    display: inline-block;
+    width: 98%;
 }
 
-.desc--added-task{
+textarea{
+    width: 98%;
+    border-bottom:1px solid #47474788;
     color: var(--black);
     font-size: 15px;
     font-weight: 400;
     letter-spacing: .7px;
+    outline: none;
+    resize: none;
+    text-transform: capitalize;
+    white-space: normal;
+    overflow-y: auto;
+    border: none;
 }
 
 .btn--delete-added{
     background-color: var(--red);
     max-width: 13%;
+    height: 30px;
     padding: 3px;
     color: #fff;
     border: none;
     outline: none;
     border-radius: 7px;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 200;
     margin-top: 1%;
     cursor: pointer;
