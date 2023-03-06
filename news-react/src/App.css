@@ -1,0 +1,25 @@
+.p--header{
+  color: #F8F5E4;
+  font-size: 1.3em;
+  margin-top: 2%;
+  text-align: center;
+}
+
+select{
+  height: 5vh;
+  width: 20vw;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+  outline: none;
+  border: 1px solid #f8f5e4a2;
+  background-color: transparent;
+  color: #F8F5E4;
+  border-radius: 7px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+option{
+  background-color: black;
+}

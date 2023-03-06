@@ -1,0 +1,22 @@
+.container{
+    width: 100vw;
+    height: 5vh;
+}
+
+h1{
+    text-align: center;
+    font-size:2.4em;
+    color: #F8F5E4;
+    font-weight: 600;
+    position: relative;
+}
+
+h1::after{
+    content: "";
+    width: 20%;
+    height: 2px;
+    background-color: #F8F5E4;
+    position: absolute;
+    top: 100%;
+    right: 40%;
+}
